@@ -2,5 +2,5 @@
     "properties": [
         {"name":"purpose","value":"image-analysis"}
     ],
-    "constraints": ["openhorizon.memory >= 2000","openhorizon.cpu >=4", "smartscale = true"]
+    "constraints": ["openhorizon.memory >= 1000","openhorizon.cpu >=4", "smartscale = true"]
 }

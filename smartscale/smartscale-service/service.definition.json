@@ -13,7 +13,7 @@
     "deployment": {
         "services": {
             "paint-assessment": {
-                "image": "${DOCKER_IMAGE_BASE}_$ARCH:1.0",
+                "image": "${DOCKER_IMAGE_BASE}:v1",
                 "privileged": false
             }
         }
