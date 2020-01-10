@@ -2,5 +2,5 @@
     "properties": [
         {"name":"purpose","value":"content-monitor"}
     ],
-    "constraints": ["openhorizon.memory >= 500", "smartcart = true"]
+    "constraints": ["openhorizon.memory >= 300", "smartcart = true"]
 }
