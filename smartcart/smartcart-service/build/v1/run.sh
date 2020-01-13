@@ -1,6 +1,6 @@
 #!/bin/sh
 echo *INFO* running our new image and exposing service on port 2021
-docker run -p 2021:8080 -d acmegrocery/battery:v1
+docker run -p 2021:8081 -d acmegrocery/battery:v1
 id=`docker ps|grep -i battery|awk '{print $1}'`
 echo *INFO* waiting 5 seconds for the NodeJS server to initialise
 sleep 5
