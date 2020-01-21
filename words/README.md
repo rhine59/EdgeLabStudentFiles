@@ -2,6 +2,8 @@
 
 This is a simple application that will respond to a CURL request with a pair of random words separated with a `-`character.
 
+Was used in the production of this set of labs.
+
 ## Build and Run
 
 The `build.sh` script will cleanup, build and run the NodeJS application and if all is well, then the `curl` command at the end of the script will return a random pair of words as in the example below. In this case `battle-depth`
