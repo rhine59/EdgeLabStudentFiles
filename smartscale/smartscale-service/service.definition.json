@@ -12,7 +12,7 @@
     "userInput": [],
     "deployment": {
         "services": {
-            "paint-assessment": {
+            "smartscale-service": {
                 "image": "${DOCKER_IMAGE_BASE}:v1",
                 "privileged": false
             }
